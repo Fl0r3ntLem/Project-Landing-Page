@@ -7,8 +7,11 @@
     <title>Project : Landing Page</title>
 </head>
 <body>
-    <div class="header">
-      <img alt="Header Logo">
+    <div class="header flexbox">
+      <div id="logo" class="flexbox">
+        <img src="images/logo.png" alt="Header Logo">
+        <a href="#" class="main-text-color">Monsters Corp.</a>
+      </div>
       <ul class="secondary-text">
         <li><a>header link one</a></li>
         <li><a>header link two</a></li>
@@ -16,44 +19,54 @@
       </ul>
     </div>
     <div class="content">
-      <div class ="hero">
+      <div class ="hero flexbox">
         <div>
-          <h1 class ="main-text">This website is awesome</h1>
-          <p class="secondary-text">This website has subtext that goes under the main title.
-            It's a smaller font and the color is lower contrast.
+          <h1 class ="main-text main-text-color">Where do they live?</h1>
+          <p class="secondary-text">
+            Monsters come from a very misterious forest where they hide. Even if you knew where it is located, it would be very difficult for you to find them...
           </p>
-            <button>Submit</button>
+            <button class="main-text-color">Sign up</button>
           </div>
-          <div><img src="" alt="Image Placeholder"></div>
+          <div><img src="images/forest.jpg" alt="Image Placeholder"></div>
       </div>
       <div>
-        <h2>Some random information.</h2>
-        <div class="items">
+        <h2>Choose your monster!</h2>
+        <div class="items flexbox">
           <div class="item">
-            <div class="icon"><img src="" alt=""></div>
-            <p class="icon-text">Subtext 1</p>
+            <div class="icon"><img src="images/dinosaur.png" alt=""></div>
+            <p class="icon-text">Grumpy Dinosaur</p>
           </div>
           <div class="item">
-            <div class="icon"><img src="" alt=""></div>
-            <p class="icon-text">Subtext 2</p>
+            <div class="icon"><img src="images/eggplant.png" alt=""></div>
+            <p class="icon-text">Ugly eggplant</p>
           </div>
           <div class="item">
-            <div class="icon"><img src="" alt=""></div>
-            <p class="icon-text">Subtext 3</p>
+            <div class="icon"><img src="images/monster.png" alt=""></div>
+            <p class="icon-text">Crazy Furball</p>
           </div>
           <div class="item">
-            <div class="icon"><img src="" alt=""></div>
-            <p class="icon-text">Subtext 4</p>
+            <div class="icon"><img src="images/plant.png" alt=""></div>
+            <p class="icon-text">Scary Plant</p>
           </div>
         </div>
       </div>
       <div class="quotes">
-        <p class="quotes-text">This is an </p>
-        <p class="quotes-author"></p>
+        <p class="quotes-text">
+          This is an inspiring quote, a testimonial from a customer.
+          Maybe it's just filling up space, or maybe people will actually read it.
+          Who knows? All I know is that it looks nice.
+        </p>
+        <p class="quotes-author">-Thor, God of Thunder</p>
       </div>
-      <div></div>
+      <div class="call-to-action flexbox">
+        <div>
+          <p class="main-text-color">Call to action! It's time!</p>
+          <p class="secondary-text">Sign up for our product by by clicking the button over here.</p>
+        </div>
+        <button class="main-text-color">Sign up</button>
+      </div>
     </div>
-    <div class="footer">
+    <div class="footer main-text-color">
       Copyright © The Odin Project 2024
     </div>
 </body>
